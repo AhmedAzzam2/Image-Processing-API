@@ -8,6 +8,26 @@ project requires having node installed https://nodejs.org/en/download/
 
 run ```npm install``` to install the dependencies
 
+## Testing
+Testing is done using jasmine
+To run the tests, run
+```
+npm run test
+```
+## run server ts
+```
+npm run start
+```
+## run build
+```
+npm run build
+```
+## run startjs
+```
+npm run startjs
+```
+
+
 ## API Reference
 
 ### Getting Started
@@ -54,15 +74,9 @@ returns resized image of specified height and width or 400 if file does not exis
 #### Author:
 <sup>Ahmed Azzam
 
-## Acknowledgements 
-The awesome team at Udacity
+## my source code 
+https://github.com/AlaaSayed794/typescript-playground
+form https://docs.google.com/presentation/d/19kMi0Siy0BrpfFl5--7tQvLkqLgUzMkrcZxEe66fafc/edit#slide=id.g10c2b7923c4_0_41
 sharp docs https://sharp.pixelplumbing.com/api-input#metadata
 eslint docs https://eslint.org/docs/user-guide/command-line-interface
 
-
-## Testing
-Testing is done using jasmine
-To run the tests, run
-```
-npm run test
-```
