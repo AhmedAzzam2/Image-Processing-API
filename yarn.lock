@@ -194,6 +194,13 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
+"@types/sharp@^0.29.5":
+  "integrity" "sha512-3TC+S3H5RwnJmLYMHrcdfNjz/CaApKmujjY9b6PU/pE6n0qfooi99YqXGWoW8frU9EWYj/XTI35Pzxa+ThAZ5Q=="
+  "resolved" "https://registry.npmjs.org/@types/sharp/-/sharp-0.29.5.tgz"
+  "version" "0.29.5"
+  dependencies:
+    "@types/node" "*"
+
 "@types/strip-bom@^3.0.0":
   "integrity" "sha1-FKjsOVbC6B7bdSB5CuzyHCkK69I="
   "resolved" "https://registry.npmjs.org/@types/strip-bom/-/strip-bom-3.0.0.tgz"
