@@ -9,7 +9,7 @@ let outImg: string;
 let imgUrl: string;
 let imgFull: string;
 imgRoute.get('/api/images', (req: express.Request, res: express.Response) => {
-  try {
+  
     imgFull = `${__dirname}/../../images/full/${req.query.filename}.jpg`; // make path image for sharp for resize
     outImg = `${__dirname}/../../images/tum/${req.query.filename}-${req.query.width}-${req.query.height}.jpg`; // make path image after add user
     imgUrl = `/tum/${req.query.filename}-${req.query.width}-${req.query.height}.jpg`; // make path image short after add user
@@ -25,9 +25,7 @@ imgRoute.get('/api/images', (req: express.Request, res: express.Response) => {
           res.send(`<img src="${imgUrl}" ></img>`); // and then show image
         });
     }
-  } catch (error) {
-    res.send(`Missing filename, height or width`); // show error
-  }
+    
 });
 
 export default imgRoute;
