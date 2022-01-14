@@ -50,4 +50,12 @@ describe('first test', () => {
       });
   });
   // GET api images
+
+  
+
+	it('check if img esit', () => {
+				expect(fs.existsSync(outImg)).toBeTruthy
+	});
+
+
 });
